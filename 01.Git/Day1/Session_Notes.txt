@@ -1,0 +1,61 @@
+Source Management Tools / Versioning  Tools
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+1.  SVN
+2.  TFS / Visual Source Safe
+3.  GIT
+
+
+
+Installation Phase
+~~~~~~~~~~~~~~~
+1.  Git account --- Register  --- https://github.com/
+
+		----  organizing remote repositories
+
+
+2.  Install Git ---  Git bash / Software   ---   https://git-scm.com/download/win
+
+		----  organizing local repositories
+---------------------------------------------------------------------------------------------------
+
+
+Working with local repositories
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+>    cd  /d							(Change the drive)
+>    cd   MyGitTest			(Change the directory)
+>	  clear 							(to clear the screen)
+
+
+1.   git  init
+
+2.   git status
+
+3.   git add  Demo1.java
+	  git add  Program.cs
+	  .....
+	  git  add  -A			(To move all updated files to staging area)
+	  
+4.  git commit  -m "commit message"	  
+
+	git commit  -m "Added first file - Demo1.java"
+	
+-----------------------------------------------------------------------------------------------------------------	
+	  
+  
+Creating Remote Repository  (Github)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Login in github
+2. Go to repositories  --> Click "New"
+3. Provide required details:
+
+		a.  Repository Name
+		b.  Choose Public  / Private
+		c.   Check "Add a README file" checkbox
+		d.   Click "Create Repository" button
+		
+		
+-----------------------------------------------------------------------------------------------------		
