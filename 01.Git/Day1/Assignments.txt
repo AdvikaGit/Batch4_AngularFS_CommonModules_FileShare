@@ -1,0 +1,23 @@
+Task-1
+~~~~~~~	
+	1.   Environment Setup:		
+			a . local git install
+			b.  create github account
+			
+	2.   Create remote repository	
+	3.   Pull files into local repository
+	4.   Add the required files
+				a.  emp.component.ts
+				b.  emp.component.html
+				c.  emp.component.css
+				
+	5.   Commit to into local repository
+	6.   Push the updated/new  files  to remote repository
+	7.   Check  status commands
+	
+
+Note:
+	1. Create another git repository :    AngularFS_Training_Assignments  
+		 (Public)
+		 
+	2. Share the repository url to me. 	
