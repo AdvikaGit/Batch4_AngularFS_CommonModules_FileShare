@@ -56,6 +56,49 @@ Creating Remote Repository  (Github)
 		b.  Choose Public  / Private
 		c.   Check "Add a README file" checkbox
 		d.   Click "Create Repository" button
-		
-		
 -----------------------------------------------------------------------------------------------------		
+
+	
+Working with Remote Repository (Pull / Push)	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Set  remote origin:
+		>	git remote add origin  "git_rep_url"		
+		>	git remote add origin  "https://github.com/tnrao-trainer/MyGitTestRepo2104.git"		
+		
+Pull data from remote repository:		
+		>  git pull origin master			
+		
+			
+Push the updated/new files to remote repository:
+		> git push origin master	
+		
+		
+----------------------------------------------------------------------------------------------------		
+		
+		
+		
+Order of the git commands execution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Go to the directory 
+>  git init 		
+>  git remote add origin  "https://github.com/tnrao-trainer/MyGitTestRepo2104.git" 
+>  git pull origin master		
+
+		//  Add the required files in the working directory
+		
+				a.  EmpClass.cs
+				b. DeptClass.java
+
+>		git  add   EmpClass.cs			( specific file)
+		git  add  -A										(All Files)
+	
+> 		git   commit   -m "new files EmpClass.cs and DeptClass.java are added"
+
+>      git push origin master	
+		--->	push the committed files to central repository 
+		
+		
+----------------------------------------------------------------------------------------------------------------------------------------------		
+
+
