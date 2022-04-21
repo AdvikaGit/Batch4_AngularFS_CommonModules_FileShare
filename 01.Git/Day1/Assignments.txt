@@ -21,3 +21,28 @@ Note:
 		 (Public)
 		 
 	2. Share the repository url to me. 	
+	
+---------------------------------------------------------------------------------------------------------------------	
+
+Task-2
+~~~~~~~
+	
+1.  Main branch --- Make sure that main branch should have the following files that created in Task-1
+
+				a.  emp.component.ts
+				b.  emp.component.html
+				c.  emp.component.css
+
+2. Create  Dev branch and add the following files:
+
+			app.module.ts
+			app.component.ts
+			
+3.  Commit in local repo.   and push the chnages to remote in dev branch. 
+
+4. In Github, access the pullrequest with merge --- close the request
+
+5.  Observe the files that created in dev branch will be updated in  main branch.
+
+6.  How to create/provide multiline comments for git commit?
+	
