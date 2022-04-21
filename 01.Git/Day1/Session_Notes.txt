@@ -102,3 +102,38 @@ Go to the directory
 ----------------------------------------------------------------------------------------------------------------------------------------------		
 
 
+Git Commands To know the meta data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git status
+
+git log	
+		--- to show the chronological commit history for a repository.
+	
+Syntax:		git show  commitID
+Eg:				git show  fc9ece8e819ad57a1a504c2ef6899ab1c36c749c
+
+					Shows the changes that you did on that particular commit. 
+
+
+git diff --staged
+				--> We  can track the changes in the staging area. 
+				 --> Differences between staging area and commited area.
+				
+git diff   master   dev
+				--->  Differences between multiple branches. 
+					
+
+------------------------------------------------------------------------------------------------------------------
+
+Working with Branch in git
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+> git branch  --list	
+	--> 	List out all available branches on the current repository.
+	
+>   git  checkout  -b  dev						(create and shifting branch)
+>   git  checkout  dev								(shifting branch)
+>  git  diff  master  dev
+
+>  git push origin dev 
+-----------------------------------------------------------------------------
